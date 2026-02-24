@@ -34,7 +34,7 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card, i) => {
+            {(achievementSection.achievementsCards || []).map((card, i) => {
               return (
                 <AchievementCard
                   key={i}

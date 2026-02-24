@@ -134,10 +134,11 @@ const workExperiences = {
       company: "University of Toronto",
       companylogo: require("./assets/images/uoft.jpeg"),
       date: " Oct. 2024 – Aug. 2025",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Faculty of Dentistry",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Provided IT support by troubleshooting hardware, software, and network issues to ensure smooth operations.",
+        "Maintained and optimized workstations, printers, and network infrastructure, including patch panels and cabling.",
+        "Deployed updates, upgrades, and automation scripts to streamline IT workflows."
       ]
     },
     {
@@ -145,14 +146,23 @@ const workExperiences = {
       company: "University of Western Ontario",
       companylogo: require("./assets/images/uwo.png"),
       date: "Aug. 2023 – Apr. 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Connect-IT",
+      descBullets: [
+        "Provided network support and troubleshooting for university departments, ensuring reliable connectivity and performance.",
+        "Assisted in the maintenance and optimization of network infrastructure, including switches, routers, and wireless access points.",
+        "Collaborated with IT teams to implement network upgrades and security measures."
+      ]
     },
     {
       role: "5G Automation Engineer Intern",
       company: "Ericsson",
       companylogo: require("./assets/images/Ericsson.jpg"),
       date: "Feb. 2022 – Aug. 2022",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      descBullets:[
+        "Designed and implemented automation scripts for 5G router testing and deployment.",
+        "Collaborated with cross-functional teams to optimize network performance and reliability.",
+        "Documented and maintained technical specifications for 5G network components."
+      ]
     }
   ]
 };
@@ -166,7 +176,78 @@ const openSource = {
 };
 
 // Some big projects you have worked on
-
+const projects = {
+  title: "Projects",
+  subtitle: "Selected projects across software, robotics, AI, computer vision, and IoT systems",
+  categories: [
+    {
+      title: "Computer Vision & Algorithms",
+      projects: [
+        {
+          image: require("./assets/images/music_scanner.png"),
+          projectName: "Music Sheet Scanner & Symbol Recognition",
+          projectDesc:
+            "Designed a computer vision pipeline using OpenCV and template matching to accurately recognize musical notations from scanned sheet music.",
+          
+        }
+      ]
+    },
+    {
+      title: "IoT & Embedded Systems",
+      projects: [
+        {
+          image: require("./assets/images/iot_waste.png"),
+          projectName: "IoT Smart Waste Classification System",
+          projectDesc:
+            "Built a scalable edge-to-cloud IoT system with embedded devices, cloud AI inference, and real-time monitoring dashboard for automated waste classification.",
+          
+        }
+      ]
+    },
+    {
+      title: "Robotics & Autonomous Systems",
+      projects: [
+        {
+          image: require("./assets/images/robot_dog.png"),
+          projectName: "Quadruped Robot Dog Navigation Simulation",
+          projectDesc:
+            "Developed a full-stack simulation framework for autonomous quadruped robot navigation, integrating SLAM, path planning, sensor fusion, and obstacle avoidance.",
+          
+        },
+        {
+          image: require("./assets/images/ride_on_car.png"),
+          projectName: "Obstacle-Avoidance Ride-on Cars for Children",
+          projectDesc:
+            "Designed and built autonomous ride-on vehicles using Arduino-based sensor and motor systems to enable safe and independent mobility for children with disabilities.",
+          
+        }
+      ]
+    },
+    
+    
+    {
+      title: "Arduino & Embedded Robotics",
+      projects: [
+        {
+          image: require("./assets/images/maze_sumo_robot.png"),
+          projectName: "Autonomous & Competitive Robotics",
+          projectDesc:
+            "Merged multiple autonomous robots including maze-solving robots and sumo competition robots. Focused on sensor integration, wall-following algorithms, obstacle detection, and real-time motion control using Arduino.",
+          
+        },
+        {
+          image: require("./assets/images/bluetooth_wifi_robot.png"),
+          projectName: "Remote & Networked Robotics",
+          projectDesc:
+            "Merged interactive robots equipped with Bluetooth/WiFi control, Python GUI interfaces, and sensor/audio feedback. Demonstrates embedded system programming, wireless communication, and human-machine interaction.",
+          
+        }
+      ]
+    }
+  ],
+  display: true
+};
+/*
 const projects = {
   title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
@@ -197,17 +278,18 @@ const projects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+*/
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
-    {
+    /*{
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
@@ -227,33 +309,14 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
+    },*/
     {
-      title: "Google Assistant Action",
+      title: "AWS Cloud Practitioner Essentials ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Earned AWS Cloud Practitioner certification, demonstrating foundational knowledge of AWS cloud services and best practices.",
+      image: require("./assets/images/aws.png"),
       imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -325,11 +388,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Let's connect!"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Please feel free to reach out to me for collaborations or just a friendly hello!",
+  number: "+1 (226) 998-0415",
+  email_address: "hollyxqy@gmail.com"
 };
 
 // Twitter Section

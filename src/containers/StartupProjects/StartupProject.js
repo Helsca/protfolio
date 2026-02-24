@@ -17,6 +17,14 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+  // Support two shapes for projects data:
+  // - projects.projects: an array of project objects
+  // - projects.categories: an array of categories each containing a `projects` array
+  const projectList = bigProjects.projects
+    ? bigProjects.projects
+    : bigProjects.categories
+    ? bigProjects.categories.reduce((acc, cat) => acc.concat(cat.projects || []), [])
+    : [];
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -33,7 +41,7 @@ export default function StartupProject() {
           </p>
 
           <div className="projects-container">
-            {bigProjects.projects.map((project, i) => {
+            {projectList.map((project, i) => {
               return (
                 <div
                   key={i}
