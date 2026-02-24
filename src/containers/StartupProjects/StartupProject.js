@@ -1,6 +1,6 @@
 import React, {useContext} from "react";
 import "./StartupProjects.scss";
-import {bigProjects} from "../../portfolio";
+import {projects as bigProjects } from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 

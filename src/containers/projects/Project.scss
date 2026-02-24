@@ -1,4 +1,4 @@
-.project-title {
+/*.project-title {
   font-size: 52px;
   font-weight: 400;
   line-height: normal;
@@ -14,6 +14,98 @@
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
 }
+
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.75); // frosted glass effect
+  backdrop-filter: blur(4px);                 // blur behind card
+  border-radius: 8px;                         // rounded corners
+  padding: 1rem;                              // spacing inside card
+  margin: 1rem 0;                             // spacing between cards
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // subtle shadow
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);             // small lift on hover
+  }
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 0.5rem;
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+    color: #000;
+  }
+
+  p {
+    color: #333;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 0.5rem;
+    color: #55198b;
+    text-decoration: none;
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+*/
+/* ------------------------------
+  Projects Section Styles
+------------------------------ */
+
+/* Title */
+.project-title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000; // default for light mode
+  margin-bottom: 1rem;
+}
+
+/* Subtitle */
+p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Grid Container */
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1380px) {
+  .project-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-title {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .repo-cards-div-main {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
 
 /* Media Query */
 @media (max-width: 1380px) {

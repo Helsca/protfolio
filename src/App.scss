@@ -28,3 +28,13 @@
 .subTitle {
   color: $subTitle;
 }
+
+/* frosted glass overlay for main content */
+.overlay {
+  background-color: rgba(255, 255, 255, 0.25); // semi-transparent white
+  backdrop-filter: blur(6px);                  // blur effect
+  border-radius: 12px;
+  padding: 2rem;                               // space inside layer
+  margin: 2rem;                                // optional spacing around layer
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);     // subtle shadow for depth
+}

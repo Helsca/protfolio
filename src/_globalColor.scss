@@ -3,16 +3,16 @@ Certain colors are used for different and multiply types of elements.
 For greater control over colors visit each components .scss file. */
 
 // button colors
-$buttonColor: #55198b;
-$buttonHover: #8c43ce;
+$buttonColor: #f1c065;
+$buttonHover: #e7af6f;
 $topButtonHover: #000;
 
 // text colors light theme
 $titleColor: #000000;
 $textColor: #000000;
-$subTitle: #868e96;
-$cardSubtitle: #666666;
-$talkCardSubTitle: #7f8287;
+$subTitle: #373c41;
+$cardSubtitle: #313131;
+$talkCardSubTitle: #2e2e2e;
 $blogCardTitleColor: #262626;
 
 // text color dark theme
@@ -35,8 +35,19 @@ $lightBackground1: #fff;
 $lightBackground2: rgb(255, 255, 255);
 $lightBackground3: #f5f2f4;
 $blogCardContainerColor: #586069;
-// dark background colors
+//dark background colors
 $darkBackground: #171c28;
+
+body {
+  background-color: $lightBackground1;
+  background-image: url('/assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; // keeps image fixed
+  color: #000;
+  min-height: 100vh;
+}
 
 // light theme box shadows
 $lightBoxShadowDark: rgba(0, 0, 0, 0.2);
@@ -47,6 +58,15 @@ $lightBoxShadowDarker: rgba(0, 0, 0, 0.3);
 $darkBoxShadow: #d9dbdf;
 $darkBoxShadow2: #ffffff;
 
+.frosted-container {
+  background-color: rgba(255, 255, 255, 0.6); // adjust opacity (0.6 = 60% white)
+  backdrop-filter: blur(6px);                 // frosted glass blur
+  border-radius: 12px;                        // optional rounded corners
+  padding: 2rem;                              // space inside container
+  margin: 2rem auto;                          // space around container
+  max-width: 1200px;                          // optional max width
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); // optional shadow
+}
 // linear gradients
 $experienceCardBlurredDivLG: linear-gradient(
   rgba(0, 0, 0, 0.4),
@@ -60,7 +80,7 @@ $experienceCardBannerLG: linear-gradient(
 // borders
 $progressBarBackground: rgb(243, 239, 239);
 $lightBorder1: rgba(211, 211, 211, 0.397);
-$educationCardBorder: #a9a7f9;
+$educationCardBorder: #27367c;
 
 // hovers
 $achievementCertificateCardHoverDark: rgba(255, 255, 255, 0.2);

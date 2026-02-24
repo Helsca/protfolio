@@ -1,0 +1,8 @@
+.card {
+  background-color: rgba(255, 255, 255, 0.25); // frosted glass effect
+  backdrop-filter: blur(4px);                 // optional blur
+  border-radius: 8px;                         // rounded corners
+  padding: 1rem;                              // spacing inside card
+  margin: 1rem 0;                             // spacing between cards
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); // subtle shadow
+}
