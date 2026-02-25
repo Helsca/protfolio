@@ -8,20 +8,21 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 // Splash Screen
 
 const splashScreen = {
-  enabled: false, // set false to disable splash screen
+  enabled: false, // set true to enable splash screen
   animation: splashAnimation,
+  image: require("./assets/images/holly.jpeg"), // Add your image here
   duration: 2000 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Beep Beep",
-  title: "Hi, I'm Holly",
+  title: "Hi, I'm Holly!",
   subTitle: "I turn code into motion, building systems that moves beyond the screen to drive real-world actions and systems.",
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -284,9 +285,9 @@ const projects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Certifications 🏆 "),
+  title: emoji("Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Awards and Certifications that I have earned !",
 
   achievementsCards: [
     /*{
@@ -311,7 +312,15 @@ const achievementSection = {
       ]
     },*/
     {
-      title: "AWS Cloud Practitioner Essentials ",
+      title: `Dean's Honor List (2020, 2023, 2024)`,
+      subtitle:
+        "Achieved Dean's Honor List recognition for outstanding academic performance in 3 out of 4 years at the University of Western Ontario.",
+      image: require("./assets/images/deans.png"),
+      //imageAlt: "Google Assistant Action Logo",
+      
+    },
+    {
+      title: "AWS Cloud Practitioner Essentials",
       subtitle:
         "Earned AWS Cloud Practitioner certification, demonstrating foundational knowledge of AWS cloud services and best practices.",
       image: require("./assets/images/aws.png"),

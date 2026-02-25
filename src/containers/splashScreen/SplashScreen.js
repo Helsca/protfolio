@@ -9,7 +9,11 @@ export default function SplashScreen() {
   return (
     <div className={isDark ? "dark-mode splash-container" : "splash-container"}>
       <div className="splash-animation-container">
-        <DisplayLottie animationData={splashScreen.animation} />
+        {splashScreen.image ? (
+          <img src={splashScreen.image} alt="Splash" className="splash-image" />
+        ) : (
+          <DisplayLottie animationData={splashScreen.animation} />
+        )}
       </div>
       <div className="splash-title-container">
         <span className="grey-color"> &lt;</span>

@@ -1,6 +1,12 @@
+@import "../../_globalColor";
+
 .education-heading {
   font-size: 56px;
   font-weight: 400;
+}
+
+.dark-mode .education-heading {
+  color: $textColorDark;
 }
 
 .education-section {
