@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.c9520952.css",
-    "main.js": "/protfolio/static/js/main.74bc9f3b.js",
+    "main.js": "/protfolio/static/js/main.f73708a0.js",
     "static/css/769.1c565291.chunk.css": "/protfolio/static/css/769.1c565291.chunk.css",
     "static/js/769.1d601608.chunk.js": "/protfolio/static/js/769.1d601608.chunk.js",
     "static/media/ride_on_car.png": "/protfolio/static/media/ride_on_car.2e9928cd1dec25a49797.png",
@@ -14,6 +14,7 @@
     "static/media/robot_dog.png": "/protfolio/static/media/robot_dog.1376d112b0934fa85e66.png",
     "static/media/deans.png": "/protfolio/static/media/deans.84485e68d834fb43342f.png",
     "static/media/Agustina.woff": "/protfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/resume.pdf": "/protfolio/static/media/resume.dde6112447a3b1a46a1a.pdf",
     "static/media/uwo.png": "/protfolio/static/media/uwo.5734ba0ddc41acc702f0.png",
     "static/media/aws.png": "/protfolio/static/media/aws.88230a81594903100f76.png",
     "static/media/music_scanner.png": "/protfolio/static/media/music_scanner.cba344f30e7be1e90ea4.png",
@@ -21,16 +22,15 @@
     "static/media/Ericsson.jpg": "/protfolio/static/media/Ericsson.7112d56a628382b0bda7.jpg",
     "static/media/uoft.jpeg": "/protfolio/static/media/uoft.33e87f7727fa65963f2b.jpeg",
     "static/media/skill.svg": "/protfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
-    "static/media/resume.pdf": "/protfolio/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/protfolio/index.html",
     "static/media/talksCardBack.svg": "/protfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c9520952.css.map": "/protfolio/static/css/main.c9520952.css.map",
-    "main.74bc9f3b.js.map": "/protfolio/static/js/main.74bc9f3b.js.map",
+    "main.f73708a0.js.map": "/protfolio/static/js/main.f73708a0.js.map",
     "769.1c565291.chunk.css.map": "/protfolio/static/css/769.1c565291.chunk.css.map",
     "769.1d601608.chunk.js.map": "/protfolio/static/js/769.1d601608.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9520952.css",
-    "static/js/main.74bc9f3b.js"
+    "static/js/main.f73708a0.js"
   ]
 }
