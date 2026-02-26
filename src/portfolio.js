@@ -21,11 +21,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Beep Beep",
+  username: "Holly X",
   title: "Hi, I'm Holly!",
   subTitle: "I turn code into motion, building systems that moves beyond the screen to drive real-world actions and systems.",
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "/resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,7 +46,9 @@ const skillsSection = {
   skills: [
     emoji("Software development, from task automation to system architecture"),
     emoji("Robotics, localization algorithms, and Arduino-based hardware and embedded systems"),
-    emoji("Network protocols, IoT deployment, and cybersecurity")
+    emoji("Network protocols, IoT deployment, and cybersecurity"),
+    emoji("AI applications and agent development for real-world systems"),
+    emoji("Data analysis, visualization, and cloud computing with AWS and Power BI")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -55,20 +56,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-  { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-  { skillName: "C / C++", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-  { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal" },
-  { skillName: "Arduino / Raspberry Pi", fontAwesomeClassname: "fas fa-microchip" },
-  { skillName: "Scheme", fontAwesomeClassname: "fas fa-project-diagram" },
-  { skillName: "Assembly", fontAwesomeClassname: "fas fa-laptop-code" },
-  { skillName: "React", fontAwesomeClassname: "fab fa-react" },
-  { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
-  { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
-  { skillName: "R", fontAwesomeClassname: "fas fa-chart-bar" },
-  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-  { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
-  { skillName: "aws", fontAwesomeClassname: "fab fa-aws" }
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "C / C++", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "PowerShell", fontAwesomeClassname: "fas fa-terminal" },
+    { skillName: "Arduino / Raspberry Pi", fontAwesomeClassname: "fas fa-microchip" },
+    { skillName: "Scheme", fontAwesomeClassname: "fas fa-project-diagram" },
+    { skillName: "Assembly", fontAwesomeClassname: "fas fa-laptop-code" },
+    { skillName: "React", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "PostgreSQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-line" },
+    { skillName: "R", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
+    { skillName: "aws", fontAwesomeClassname: "fab fa-aws" }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -98,7 +99,7 @@ const educationInfo = {
       descBullets: [
         "Average GPA: 3.7/4.0",
         "Thesis: A Systematic Study of Localization Problem and Solution in the Internet of Robotic Things",
-        "Relevant Course:  Object-Oriented Design & Analysis, Data Structures & Algorithms, Network Structure, Network Security, Human-Computer Interaction, Artificial Intelligence, Project Management"
+        "Relevant Course:  Object-Oriented Design & Analysis, Data Structures & Algorithms, Network Structure, Network Security, Human-Computer Interaction, Artificial Intelligence, AI Ethics, Project Management"
       ]
     }
   ]
@@ -137,9 +138,9 @@ const workExperiences = {
       date: " Oct. 2024 – Aug. 2025",
       desc: "Faculty of Dentistry",
       descBullets: [
-        "Provided IT support by troubleshooting hardware, software, and network issues to ensure smooth operations.",
-        "Maintained and optimized workstations, printers, and network infrastructure, including patch panels and cabling.",
-        "Deployed updates, upgrades, and automation scripts to streamline IT workflows."
+        "Troubleshot hardware, software, and network issues to maintain operational reliability.",
+        "Maintained workstations, printers, and network infrastructure, including patch panels and cabling.",
+        "Deployed system updates and automation scripts to streamline IT workflows."
       ]
     },
     {
@@ -149,9 +150,9 @@ const workExperiences = {
       date: "Aug. 2023 – Apr. 2024",
       desc: "Connect-IT",
       descBullets: [
-        "Provided network support and troubleshooting for university departments, ensuring reliable connectivity and performance.",
-        "Assisted in the maintenance and optimization of network infrastructure, including switches, routers, and wireless access points.",
-        "Collaborated with IT teams to implement network upgrades and security measures."
+        "Provided network troubleshooting to ensure reliable connectivity across campus.",
+        "Maintained switches, routers, and wireless access points to optimize performance.",
+        "Supported network upgrades and implemented security enhancements."
       ]
     },
     {
@@ -159,10 +160,22 @@ const workExperiences = {
       company: "Ericsson",
       companylogo: require("./assets/images/Ericsson.jpg"),
       date: "Feb. 2022 – Aug. 2022",
-      descBullets:[
+      descBullets: [
         "Designed and implemented automation scripts for 5G router testing and deployment.",
         "Collaborated with cross-functional teams to optimize network performance and reliability.",
         "Documented and maintained technical specifications for 5G network components."
+      ]
+    },
+    {
+      role: "Technical Support & QA Intern",
+      company: "Northeastern University Software",
+      companylogo: require("./assets/images/neusoft.png"),
+      date: "Aug. 2021 – Feb. 2022",
+      desc: "Client Project: Momo Game Division",
+      descBullets: [
+        "Analyzed player-reported bugs to identify patterns and prioritize fixes.",
+        "Structured ticket data into weekly reports to track defect trends.",
+        "Collaborated with development teams to ensure timely resolution of critical issues."
       ]
     }
   ]
@@ -189,7 +202,7 @@ const projects = {
           projectName: "Music Sheet Scanner & Symbol Recognition",
           projectDesc:
             "Designed a computer vision pipeline using OpenCV and template matching to accurately recognize musical notations from scanned sheet music.",
-          
+
         }
       ]
     },
@@ -201,7 +214,7 @@ const projects = {
           projectName: "IoT Smart Waste Classification System",
           projectDesc:
             "Built a scalable edge-to-cloud IoT system with embedded devices, cloud AI inference, and real-time monitoring dashboard for automated waste classification.",
-          
+
         }
       ]
     },
@@ -213,19 +226,19 @@ const projects = {
           projectName: "Quadruped Robot Dog Navigation Simulation",
           projectDesc:
             "Developed a full-stack simulation framework for autonomous quadruped robot navigation, integrating SLAM, path planning, sensor fusion, and obstacle avoidance.",
-          
+
         },
         {
           image: require("./assets/images/ride_on_car.png"),
           projectName: "Obstacle-Avoidance Ride-on Cars for Children",
           projectDesc:
             "Designed and built autonomous ride-on vehicles using Arduino-based sensor and motor systems to enable safe and independent mobility for children with disabilities.",
-          
+
         }
       ]
     },
-    
-    
+
+
     {
       title: "Arduino & Embedded Robotics",
       projects: [
@@ -234,14 +247,14 @@ const projects = {
           projectName: "Autonomous & Competitive Robotics",
           projectDesc:
             "Merged multiple autonomous robots including maze-solving robots and sumo competition robots. Focused on sensor integration, wall-following algorithms, obstacle detection, and real-time motion control using Arduino.",
-          
+
         },
         {
           image: require("./assets/images/bluetooth_wifi_robot.png"),
           projectName: "Remote & Networked Robotics",
           projectDesc:
             "Merged interactive robots equipped with Bluetooth/WiFi control, Python GUI interfaces, and sensor/audio feedback. Demonstrates embedded system programming, wireless communication, and human-machine interaction.",
-          
+
         }
       ]
     }
@@ -317,7 +330,7 @@ const achievementSection = {
         "Achieved Dean's Honor List recognition for outstanding academic performance in 3 out of 4 years at the University of Western Ontario.",
       image: require("./assets/images/deans.png"),
       //imageAlt: "Google Assistant Action Logo",
-      
+
     },
     {
       title: "AWS Cloud Practitioner Essentials",
@@ -325,7 +338,7 @@ const achievementSection = {
         "Earned AWS Cloud Practitioner certification, demonstrating foundational knowledge of AWS cloud services and best practices.",
       image: require("./assets/images/aws.png"),
       imageAlt: "Google Assistant Action Logo",
-      
+
     }
   ],
   display: true // Set false to hide this section, defaults to true
