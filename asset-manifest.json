@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.c9520952.css",
-    "main.js": "/protfolio/static/js/main.f73708a0.js",
-    "static/css/769.1c565291.chunk.css": "/protfolio/static/css/769.1c565291.chunk.css",
+    "main.css": "/protfolio/static/css/main.c43cd286.css",
+    "main.js": "/protfolio/static/js/main.7c959afe.js",
+    "static/css/769.2d12e8a3.chunk.css": "/protfolio/static/css/769.2d12e8a3.chunk.css",
     "static/js/769.1d601608.chunk.js": "/protfolio/static/js/769.1d601608.chunk.js",
     "static/media/ride_on_car.png": "/protfolio/static/media/ride_on_car.2e9928cd1dec25a49797.png",
     "static/media/maze_sumo_robot.png": "/protfolio/static/media/maze_sumo_robot.aa02ef42814621ecf2c8.png",
@@ -14,23 +14,24 @@
     "static/media/robot_dog.png": "/protfolio/static/media/robot_dog.1376d112b0934fa85e66.png",
     "static/media/deans.png": "/protfolio/static/media/deans.84485e68d834fb43342f.png",
     "static/media/Agustina.woff": "/protfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/resume.pdf": "/protfolio/static/media/resume.dde6112447a3b1a46a1a.pdf",
+    "static/media/Resume.pdf": "/protfolio/static/media/Resume.dde6112447a3b1a46a1a.pdf",
     "static/media/uwo.png": "/protfolio/static/media/uwo.5734ba0ddc41acc702f0.png",
     "static/media/aws.png": "/protfolio/static/media/aws.88230a81594903100f76.png",
     "static/media/music_scanner.png": "/protfolio/static/media/music_scanner.cba344f30e7be1e90ea4.png",
     "static/media/contactMailDark.svg": "/protfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/Ericsson.jpg": "/protfolio/static/media/Ericsson.7112d56a628382b0bda7.jpg",
     "static/media/uoft.jpeg": "/protfolio/static/media/uoft.33e87f7727fa65963f2b.jpeg",
+    "static/media/neusoft.png": "/protfolio/static/media/neusoft.aa9807776bece8463175.png",
     "static/media/skill.svg": "/protfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/protfolio/index.html",
     "static/media/talksCardBack.svg": "/protfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.c9520952.css.map": "/protfolio/static/css/main.c9520952.css.map",
-    "main.f73708a0.js.map": "/protfolio/static/js/main.f73708a0.js.map",
-    "769.1c565291.chunk.css.map": "/protfolio/static/css/769.1c565291.chunk.css.map",
+    "main.c43cd286.css.map": "/protfolio/static/css/main.c43cd286.css.map",
+    "main.7c959afe.js.map": "/protfolio/static/js/main.7c959afe.js.map",
+    "769.2d12e8a3.chunk.css.map": "/protfolio/static/css/769.2d12e8a3.chunk.css.map",
     "769.1d601608.chunk.js.map": "/protfolio/static/js/769.1d601608.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9520952.css",
-    "static/js/main.f73708a0.js"
+    "static/css/main.c43cd286.css",
+    "static/js/main.7c959afe.js"
   ]
 }
